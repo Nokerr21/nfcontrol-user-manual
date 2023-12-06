@@ -1,0 +1,112 @@
+.nav {
+    background-color: var(--nav-background-color);
+    width: 100%;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+    border-radius: 0.5rem;
+    /*border: 1px solid hotpink;*/
+    box-shadow: 0 5px 20px var(--nav-box-shadow-color);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease-out;
+  }
+
+  .site-logo {
+    background-image: url(../../../images/logo.png);
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 120px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2rem;
+  }
+
+  .checkbox-theme {
+    position: absolute;
+    right: 2rem;
+    top: 1.9rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .checkbox-theme:checked + .checkbox-theme-label {
+    background: #242424;
+  }
+
+  .checkbox-theme:checked + .checkbox-theme-label:after {
+    left: 2.75rem;
+    transform: translateX(-100%);
+    background: linear-gradient(180deg, #777, #3a3a3a);
+  }
+
+  .checkbox-theme-label {
+    background: #ebebeb;
+    box-shadow: inset 0px 5px 15px rgba(0, 0, 0, 0.4), inset 0px -5px 15px rgba(255, 255, 255, 0.4);
+    width: 45px;
+    height: 20px;
+    border-radius: 50px;
+    position: absolute;
+    right: 2rem;
+    top: 2.78rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .checkbox-theme-label:after {
+    content: "";
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    border-radius: 50%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    z-index: 0;
+  }
+
+  .checkbox-theme-label, .checkbox-theme-label:after {
+    transition: 0.3s;
+  }
+
+  .checkbox-theme-label svg {
+    position: absolute;
+    width: 16px;
+    top: 40px;
+    z-index: 0;
+    top: -24.38rem;
+  }
+
+  .moon-icon-color {
+    fill: #333;
+  }
+
+  .checkbox-theme-label svg.moon-icon {
+    right: 0.15rem;
+  }
+
+  .sun-icon-color {
+    fill:#d8860b;
+  }
+
+  .checkbox-theme-label svg.sun-icon {
+    right: 1.7rem;
+  }
+  
+
+  
+ 
+
+

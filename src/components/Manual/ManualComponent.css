@@ -1,0 +1,160 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+  }
+
+  .row {
+    background-image: url('../../../images/divReadTag0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 7px 7px var(--div-box-shadow-color);
+    padding: 1.1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+    text-align: left;
+    text-indent: 0.2rem;
+    margin-top: 7.5rem;
+    transition: all 0.3s ease-out;
+  }
+
+  .row2 {
+    background-image: url('../../../images/divReadTag0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 7px 7px var(--div-box-shadow-color);
+    padding: 1.1rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 1.3rem;
+    transition: all 0.3s ease-out;
+  }
+
+  .img.read1 {
+    background-image: url('../../../images/divReadTag0.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .row-manual {
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .br { 
+    display: block; 
+    margin-bottom: 1em; 
+  }
+
+  .br2 { 
+    display: block; 
+    margin-bottom: 0.5em; 
+  }
+
+  .about {
+    overflow-wrap: break-word;
+    max-width: 400px;
+    white-space: pre-wrap;
+    color: var(--about-color);
+    text-indent: 0;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0rem;
+    text-align: justify;
+    text-justify: distribute;
+    hyphens: auto;
+    transition: all 0.3s ease-out;
+  }
+
+  .about2 {
+    overflow-wrap: break-word;
+    max-width: 400px;
+    white-space: pre-wrap;
+    color: white;
+    text-indent: 0;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 0rem;
+    text-align: justify;
+    text-justify: distribute;
+    hyphens: auto;
+    margin-bottom: 0.3rem;
+  }
+
+  .labl-manual {
+    color: white;
+    font-size: x-large;
+    font-family: "Prompt", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .labl {
+    color: white;
+    font-size: large;
+    font-family: "Prompt", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  .label2 {
+    font-size: larger;
+    font-family: "Ubuntu", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .label1 {
+    color: white;
+    margin-bottom: 0.5rem;
+    font-size: x-large;
+    font-family: "Prompt", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-indent: 0;
+  }
+
+  @media screen and (min-width: 700px) {
+    .row {
+      gap: 1rem;
+    }
+   
+    .about {
+      max-width: 700px;
+      font-size: x-large;
+    }
+
+    .about2 {
+      max-width: 700px;
+      font-size: x-large;
+    }
+
+    .labl-manual {
+      font-size: xx-large;
+    }
+
+    .labl {
+      color: white;
+      font-size: x-large;
+    }
+
+    .label1 {
+      font-size: xx-large;
+    }
+
+    .label2 {
+      font-size: x-large;
+    }
+  }
+
