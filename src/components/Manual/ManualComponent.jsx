@@ -37,7 +37,8 @@ export function ManualComponent() {
 
             <p className='about'>
                 2. Hold the NFC tag close to the reader until the reading action 
-                is completed and the appropriate message is displayed.
+                is completed and the appropriate message is displayed. Repeat the 
+                action by clicking the "Read" button again.
                 <span className="br"></span>
             </p>
             <img src={read22} />
